@@ -1,0 +1,20 @@
+.link-rack {
+    margin-left: 50px;
+}
+
+.link-rack button {
+    margin-right: 10px;
+}
+
+.link-rack button:hover {
+    background-color: rgb(127, 110, 127);
+}
+
+.activated {
+    background-color: chartreuse;
+    color: black;
+}
+
+main {
+    padding: 20px 40px;
+}

@@ -1,0 +1,20 @@
+<h2>Contact</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <div>
+        <input matInput type="text" formControlName="pseudo">
+    </div>
+
+    <div>
+        <select formControlName="destinataire" value="propriétaire">
+            <option *ngFor="let item of services" [value]="item">{{item}}</option>
+        </select>
+    </div>
+
+    <div>
+        <textarea placeholder="Votre message..." formControlName="message"></textarea>
+    </div>
+
+    <button mat-button type="submit">envoyer</button>
+</form>

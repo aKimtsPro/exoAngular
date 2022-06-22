@@ -1,0 +1,38 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "nom": "pizza classique",
+      "prix": 10,
+      "taille": "M"
+    }
+  ],
+  "pate": [
+    {
+      "id": 1,
+      "nom": "pate classique",
+      "prix": 8,
+      "fromage": false
+    }
+  ],
+  "message": [
+    {
+      "id": 1,
+      "pseudo": "pseudo",
+      "destinataire": "propriétaire",
+      "message": "message"
+    },
+    {
+      "pseudo": "pseudo2",
+      "destinataire": "propriétaire",
+      "message": "message2",
+      "id": 2
+    },
+    {
+      "pseudo": "bonjour",
+      "destinataire": "propriétaire",
+      "message": "bonjour bonjour",
+      "id": 3
+    }
+  ]
+}
